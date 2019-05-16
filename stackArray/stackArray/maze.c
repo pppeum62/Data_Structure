@@ -35,7 +35,7 @@ enum boolean pop(int *r, int *c, int *d) {
 enum boolean mazeSearch(int maze[M][N]) {
 	int current_r, current_c, out_r, out_c;
 	int view_r, view_c;
-	int d = 0; // d는 이동할 수 있는 0~8 방향 중 하나로 0에서 출발
+	int d = 0; // d는 이동할 수 있는 0~7 방향 중 하나로 0에서 출발
 			   //0방향은 우, 1방향은 우하, 2방향은 하, 3방향은 좌하, 4방향은 좌, 5방향은 좌상, 6방향은 상, 7방향은 우상
 	int move[8][2] = { { 0,1 },{ 1,1 },{ 1,0 },{ 1,-1 },{ 0,-1 },{ -1,-1 },{ -1,0 },{ -1,1 } };
 
