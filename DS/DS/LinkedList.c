@@ -18,8 +18,6 @@ int main(void) {
 	p->link->link->data = 'C';
 	p->link->link->link = NULL;
 
-	
-
 	printf("%c\n", p->data);
 	printf("%c\n", p->link->data);
 	printf("%c\n", p->link->link->data);

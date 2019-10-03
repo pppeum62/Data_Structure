@@ -19,6 +19,8 @@ int main() {
 	int a[] = { 17, 8, 20, 11, 5, 12, 15, 7 };
 	int i, n = sizeof(a) / sizeof(int);
 
+	printf("<< Shell Sort >>\n");
+
 	printf("Á¤·Ä Àü : ");
 	for (i = 0; i < n; i++)
 		printf("%5d", a[i]);
