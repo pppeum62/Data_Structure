@@ -36,5 +36,11 @@
     <ClCompile Include="MergeSort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="RadixSort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SortAlgoExeTime.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
